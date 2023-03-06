@@ -2,34 +2,40 @@
     position: relative;
     width: 1142px;
     height: 92.64px;
-    /* left: 389px; */
-    /* top: 2780px; */
-    /* margin-top: 53px; */
 }
 
 
 .menu__footer{
-    margin-left: 130px;
+    margin-left: 80px;
     margin-top: 0px;
     display: inline-block;
+    position: absolute;
+    margin-top: 53px;
 }
 
 .menu__link--footer{
-    /* margin-right: 54px; */
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
 }
 
 .socials{
-    margin-left: 111px;
+    margin-left: 450px;
     margin-right: 74px;
     display: inline-block;
+    margin-top: 27px;
 }
 .socials__link{
-    display: inline-block;
     height: 36px;
     width: 36px;
+    margin-right: 10px;
+    position: absolute;
+}
+.social__item{
+    display: inline-block;
+    margin-right: 46px;
+}
+.social__item:last-child{
     margin-right: 10px;
 }
 
@@ -49,7 +55,8 @@
     line-height: 20px;
     color: #fff;
     position: absolute;
-    margin-left: 945px;
     padding-bottom: 57.36px;
 }
+
+
 
