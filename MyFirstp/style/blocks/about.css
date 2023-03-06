@@ -1,0 +1,49 @@
+.about__container{
+    margin: 230px 392px 0px 389px ;
+    margin-top: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #000;
+    position: relative;
+    width: 1139px;
+    height: 552px;
+}
+.about__img{
+    position: absolute;
+    width: 490px;
+    height: 505px;
+}
+.about__item{
+    position: absolute;
+    background: #fff;
+    color: #000;
+    display: inline-block;
+    width: 785px;
+    height: 455px;
+    margin-top: 97px;
+    margin-left: 354px;
+    border-radius: 5px;
+
+} 
+.about__title{
+    position: absolute;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+    margin: 70px 588px 336px 81px;
+    width: 116px;
+    height: 49px;
+}
+.about__text{
+    position: absolute;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    margin: 156px 202px 164px 81px;
+    z-index: 2;
+    width: 502px;
+    height: 135px;
+}
+.button__about{
+    margin: 334px 536px 66px 81px;
+}

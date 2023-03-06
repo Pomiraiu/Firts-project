@@ -1,0 +1,55 @@
+.footer__container{
+    position: relative;
+    width: 1142px;
+    height: 92.64px;
+    /* left: 389px; */
+    /* top: 2780px; */
+    /* margin-top: 53px; */
+}
+
+
+.menu__footer{
+    margin-left: 130px;
+    margin-top: 0px;
+    display: inline-block;
+}
+
+.menu__link--footer{
+    /* margin-right: 54px; */
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.socials{
+    margin-left: 111px;
+    margin-right: 74px;
+    display: inline-block;
+}
+.socials__link{
+    display: inline-block;
+    height: 36px;
+    width: 36px;
+    margin-right: 10px;
+}
+
+
+.contacts__text--footer{
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 20px;
+    color: #9A9A9A;
+    position: absolute;
+    margin-left: 973px;
+    padding-bottom: 6.5px;
+}
+.contacts__phone--footer{
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 20px;
+    color: #fff;
+    position: absolute;
+    margin-left: 945px;
+    padding-bottom: 57.36px;
+}
+
