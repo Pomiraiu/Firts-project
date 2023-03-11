@@ -1,0 +1,80 @@
+.news{
+    margin-top: 180px;
+    color: #000;
+    position: relative;
+}
+
+.news__item{
+    display: inline-block;
+    width: 557px;
+    height: 394px;
+    margin-right: 20px;
+    position: relative;
+}
+.news__item:last-child{
+    margin-right: 0;
+}
+
+.news__item--camera{
+    background: url("../../img/camera.png");
+}
+
+.news__item--wedding{
+    background: url("../../img/wedding.png");
+}
+.news__date{
+    position: absolute;
+    margin: 252.5px 433px 120.5px 30px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #fff;
+}
+
+.news__title{
+    position: absolute;
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    margin: 286px 83px 72px 31px;
+}
+.news__description{
+    position: absolute;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    margin: 326px 83px 26px 32px;
+}
+.pager{
+    text-align: center;
+    margin-top: 53px;
+    color: #fff;
+}
+.pager__display, .pager__paginator{
+display: inline-block;
+vertical-align: middle;
+}
+.pager__display{
+    margin-right: 25px;
+}
+
+.pager__number{
+    display: inline-block;
+    vertical-align: middle;
+}
+.pager__number--active .page__link{
+background: #FF5500;
+}
+
+
+.page__link{
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 32px;
+}

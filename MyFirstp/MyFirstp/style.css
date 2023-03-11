@@ -1,0 +1,70 @@
+
+
+
+
+ul li {
+    list-style: none;
+}
+
+
+.header {
+    height: 130px;
+    width: 1142px;
+    position: relative;
+    top: 26px;
+}
+.header .logo {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.header .menu {
+    top: 21px;
+    left: 439px;
+    display: inline-block;
+    position: absolute;
+}
+
+.header .contacts {
+    top: 31.64px;
+    left: 951px;
+    display: inline-block;
+    position: absolute;
+}
+
+.menu__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 54px;
+}
+
+.menu__link{
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu__link:hover{
+color:#FF3D00
+}
+
+.contacts{
+    font-style: normal;
+    text-align: right;
+}
+
+.contacts__phone{
+    font-size: 26px;
+    text-decoration: none;
+    margin-bottom: 1px;
+}
+
+.contacts__info {
+    font-size: 13px;
+    color: #FF3D00;
+    text-decoration:solid;
+}
+
+
