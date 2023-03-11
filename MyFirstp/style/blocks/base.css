@@ -123,4 +123,13 @@ img {
     background: url("../../img/hero.png");
 }
 
+hr{
+    height: 4px;
+    width: 1142px;
+    color: #fff;
+    opacity: 0.1;
+    position: relative;
+    margin-left: 500px;
+    /* margin-right: 389px; */
+}
 
