@@ -1,0 +1,28 @@
+.hello__container{
+    margin-top: 234px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: ;
+}
+.hello__title{
+display: block;
+font-weight: 800;
+font-size: 72px;
+line-height: 98px;
+text-align: center;
+}
+.hello__text{
+font-weight: 400;
+font-size: 18px;
+line-height: 20px;
+text-align: center;
+margin-top: 17.5px;
+}
+.button{
+    margin-top: 43.5px;
+}
+
+.button__hello{
+    margin-right: auto;
+    margin-left: auto;
+}

@@ -1,0 +1,42 @@
+.footer__container{
+    position: relative;
+    width: 1142px;
+    height: 92.64px;
+    margin-left: 490px;
+}
+
+
+.menu__footer{
+    margin-left: 80px;
+    margin-top: 0px;
+    display: inline-block;
+    position: absolute;
+    margin-top: 53px;
+}
+
+.menu__link{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.socials{
+    margin-left: 450px;
+    margin-right: 74px;
+    display: inline-block;
+    margin-top: 27px;
+}
+.socials__link{
+    height: 36px;
+    width: 36px;
+    margin-right: 10px;
+    position: absolute;
+}
+.social__item{
+    display: inline-block;
+    margin-right: 46px;
+}
+.social__item:last-child{
+    margin-right: 10px;
+}
+
