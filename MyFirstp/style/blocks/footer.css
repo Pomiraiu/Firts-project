@@ -1,17 +1,11 @@
-.footer__container{
+footer{
+    border-top: 4px solid #2E3032;
+    margin-top: 53px;
     position: relative;
-    width: 1142px;
-    height: 92.64px;
-    margin-left: 490px;
 }
 
-
-.menu__footer{
+.menu--footer{
     margin-left: 120px;
-    margin-top: 0px;
-    display: inline-block;
-    position: absolute;
-    margin-top: 53px;
 }
 
 .menu__link{
@@ -21,22 +15,21 @@
 }
 
 .socials{
-    margin-left: 450px;
-    margin-right: 74px;
     display: inline-block;
-    margin-top: 27px;
+    position: absolute;
+    top: 37px;
+    right: 265px;
 }
 .socials__link{
     height: 36px;
     width: 36px;
     margin-right: 10px;
-    position: absolute;
 }
 .social__item{
     display: inline-block;
-    margin-right: 46px;
 }
 .social__item:last-child{
     margin-right: 10px;
 }
+
 
