@@ -1,7 +1,10 @@
+.container--relative{
+    position: relative;
+}
+
 footer{
     border-top: 4px solid #2E3032;
     margin-top: 53px;
-    position: relative;
 }
 
 .menu--footer{
@@ -15,12 +18,12 @@ footer{
 }
 
 .socials{
-    display: inline-block;
     position: absolute;
     top: 37px;
     right: 265px;
 }
 .socials__link{
+    display: block;
     height: 36px;
     width: 36px;
     margin-right: 10px;
