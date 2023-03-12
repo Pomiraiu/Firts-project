@@ -1,0 +1,38 @@
+.container--relative{
+    position: relative;
+}
+
+footer{
+    border-top: 4px solid #2E3032;
+    margin-top: 53px;
+}
+
+.menu--footer{
+    margin-left: 120px;
+}
+
+.menu__link{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.socials{
+    position: absolute;
+    top: 37px;
+    right: 265px;
+}
+.socials__link{
+    display: block;
+    height: 36px;
+    width: 36px;
+    margin-right: 10px;
+}
+.social__item{
+    display: inline-block;
+}
+.social__item:last-child{
+    margin-right: 10px;
+}
+
+
