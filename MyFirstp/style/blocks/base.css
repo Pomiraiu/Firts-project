@@ -25,8 +25,9 @@ body {
     border-radius: 35px;
     padding: 18px;
     width: 168px;
-    color: #fff;    
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: #fff;
 	border: 0;
 	cursor: pointer;
     font-weight: 700;
@@ -92,11 +93,15 @@ img {
 .wrapper {
 	min-height: 100%;
     overflow: hidden;
+    min-width: 1180px;
+    display: flex;
+    flex-direction: column;
 }
 
 .wrapper__content--main{
     background: url("../../img/hero.png");
     background-repeat: no-repeat;
+    flex: 1;
 }
 .container {
 	margin: 0 auto;

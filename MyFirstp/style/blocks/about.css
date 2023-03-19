@@ -1,22 +1,20 @@
 .about__container{
     margin-top: 180px;
     color: #000;
-    position: relative;
     height: 552px;
 }
 .about__img{
-    position: absolute;
+    display: block;
     width: 490px;
     height: 505px;
 }
 .about__item{
-    position: absolute;
+    display: flex;
     background: #fff;
     color: #000;
-    display: inline-block;
-    width: 785px;
+    max-width: 785px;
     height: 455px;
-    margin-top: 97px;
+    /* margin-top: 97px; */
     margin-left: 354px;
     border-radius: 5px;
 

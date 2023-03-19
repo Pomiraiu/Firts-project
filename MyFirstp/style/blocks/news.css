@@ -1,15 +1,13 @@
 .news{
     margin-top: 180px;
     color: #000;
-    position: relative;
 }
 
 .news__item{
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
     width: 557px;
     height: 394px;
-    margin-right: 20px;
-    position: relative;
 }
 .news__item:last-child{
     margin-right: 0;
@@ -22,9 +20,9 @@
 .news__item--wedding{
     background: url("../../img/wedding.png");
 }
+
+
 .news__date{
-    position: absolute;
-    margin: 252.5px 433px 120.5px 30px;
     font-weight: 400;
     font-size: 14px;
     line-height: 21px;
@@ -32,42 +30,43 @@
 }
 
 .news__title{
-    position: absolute;
     color: #fff;
     font-weight: 700;
     font-size: 24px;
     line-height: 36px;
-    margin: 286px 83px 72px 31px;
 }
 .news__description{
-    position: absolute;
     color: #fff;
     font-weight: 400;
     font-size: 16px;
     line-height: 21px;
-    margin: 326px 83px 26px 32px;
 }
 .pager{
-    text-align: center;
+    display: flex;
+    justify-content: center;
     margin-top: 53px;
     color: #fff;
+    align-items:center;
+
 }
-.pager__display, .pager__paginator{
-display: inline-block;
-vertical-align: middle;
-}
+
 .pager__display{
     margin-right: 25px;
 }
 
-.pager__number{
-    display: inline-block;
-    vertical-align: middle;
-}
+
 .pager__number--active .page__link{
 background: #FF5500;
 }
 
+.pager__number{
+    text-align: center;
+}
+
+.pager__paginator{
+    display: flex;
+    align-items:center;
+}
 
 .page__link{
     display: block;

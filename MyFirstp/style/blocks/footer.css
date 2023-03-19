@@ -1,10 +1,23 @@
-.container--relative{
+.footer__container{
     position: relative;
+    display: flex;
+    margin-top: auto;
+    align-items: center;
+    justify-content: space-between;
 }
 
 footer{
     border-top: 4px solid #2E3032;
-    margin-top: 53px;
+    max-width: 1141px;
+    margin: 53px auto;
+}
+.footer__col{
+    display: flex;
+    align-items: center;
+}
+
+.footer__col--aling--right{
+    align-items:flex-end;
 }
 
 .menu--footer{
@@ -18,7 +31,7 @@ footer{
 }
 
 .socials{
-    position: absolute;
+    margin-right: 74px;
     top: 37px;
     right: 265px;
 }

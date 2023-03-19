@@ -1,22 +1,32 @@
 .header{
-    height: 77px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 26px;
+    margin-bottom: 30px;
+}
+.header__col{
+    display: flex;
+    align-items: center;
+}
+
+.header__col--align-right{
+    justify-content: flex-end;
+    align-content: start;
 }
 
 .logo{
-    margin-top: 26px;
-    float: left;
+display: block;
+margin-right: 241px;
 }
 
 .contacts{
-    margin-top: 31.64px;
-    float: right;
     font-style: normal;
     text-align: right;
 }
 
 .menu{
-    margin-top: 47px;
-    margin-left: 241px;
+margin-right: 241px;
 }
 
 .menu__item{
