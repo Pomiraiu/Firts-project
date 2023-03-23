@@ -86,7 +86,7 @@ a {
 
 img {
 	display: block;
-	max-width: 100%;
+	/* max-width: 100%; */
 	max-height: 100%;
 }
 
@@ -99,9 +99,7 @@ img {
 }
 
 .wrapper__content--main{
-    background: url("../../img/hero.png");
-    background-repeat: no-repeat;
-    flex: 1;
+    background: url("../../img/hero.png") right 20% top no-repeat;
 }
 .container {
 	margin: 0 auto;
@@ -113,9 +111,10 @@ img {
 .logo, .menu, .menu__item, .contacts{
     display: inline-block;
 }
+
 .background{
-    background: url("../../img/bottom-pic.png");
-    background-repeat: no-repeat;
+    background: url("../../img/bottom-pic.png") right  20% top no-repeat;
 }
+
 
 

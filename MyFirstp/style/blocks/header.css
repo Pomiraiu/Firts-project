@@ -3,8 +3,15 @@
     justify-content: space-between;
     align-items: center;
     padding-top: 26px;
-    margin-bottom: 30px;
+    padding-bottom: 74.64px;
 }
+
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 79px;
+}
+
 .header__col{
     display: flex;
     align-items: center;
@@ -17,7 +24,10 @@
 
 .logo{
 display: block;
-margin-right: 241px;
+margin-right: 130px;
+}
+.logo__header{
+    margin-right: 241px;
 }
 
 .contacts{
@@ -25,8 +35,11 @@ margin-right: 241px;
     text-align: right;
 }
 
-.menu{
-margin-right: 241px;
+
+
+.menu__list{
+    display: flex;
+    margin-right: 111px;
 }
 
 .menu__item{

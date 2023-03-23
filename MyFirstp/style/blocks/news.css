@@ -3,6 +3,18 @@
     color: #000;
 }
 
+.news__caption{
+    color: #fff;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+    margin-bottom: 51px;
+}
+.news__list{
+    display: flex;
+    justify-content: space-between;
+}
+
 .news__item{
     display: flex;
     justify-content: space-between;
@@ -15,10 +27,14 @@
 
 .news__item--camera{
     background: url("../../img/camera.png");
+    display: flex;
+    align-items: flex-end;
 }
 
 .news__item--wedding{
     background: url("../../img/wedding.png");
+    display: flex;
+    align-items: flex-end;
 }
 
 
